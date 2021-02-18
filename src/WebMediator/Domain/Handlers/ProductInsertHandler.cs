@@ -11,6 +11,8 @@ namespace WebMediator.Domain.Handlers
     {
         public Task<ProductResponse> Handle(ProductRequest request, CancellationToken cancellationToken)
         {
+            // Regras de negócio
+
             var result = new ProductResponse
             {
                 Id = Guid.NewGuid(),

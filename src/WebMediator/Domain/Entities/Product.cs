@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace WebMediator.Domain.Entities
 {
     public class Product
